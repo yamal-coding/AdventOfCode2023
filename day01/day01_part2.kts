@@ -4,7 +4,7 @@ import java.io.File
 import java.util.Scanner
 
 /*
- * Part 1 of day 1: https://adventofcode.com/2023/day/1
+ * Part 2 of day 1: https://adventofcode.com/2023/day/1
  */
 
 val file = File("input.txt")
