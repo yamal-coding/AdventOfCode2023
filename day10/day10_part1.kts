@@ -59,7 +59,6 @@ enum class Direction {
 val startPosition = startX to startY
 
 var previousClockWiseDirection = Direction.EAST
-var previousClockWisePipe = startPipe
 var clockWisePosition = startX to (startY + 1)
 
 var steps = 1
@@ -135,7 +134,7 @@ while (clockWisePosition != startPosition) {
 			}
 		}
 	}
-	previousClockWisePipe = nextClockWisePipe
+
 	clockWisePosition = nextClockWiseRow to nextClockWiseColumn
 
 	steps++
