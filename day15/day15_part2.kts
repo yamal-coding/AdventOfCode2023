@@ -2,7 +2,7 @@
 
 import java.io.File
 import java.util.Scanner
-import java.util.LinkedList;
+import java.util.LinkedList
 
 /*
  * Part 2 of day 15: https://adventofcode.com/2023/day/15
